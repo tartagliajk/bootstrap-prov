@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 bg-success text-center text-white pt-3">
+                <p>Teknik program</p>
+            </div>
+            <div class="col-6 bg-dark text-center text-white pt-3">
+                <p>IT program</p>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-info mt-3" style="height:480px;">
+        <nav class="navbar navbar-expand-sm bg-danger">
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseNavbar">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapseNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active text-white">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light text-white text-opacity-50">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light text-white text-opacity-50">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled text-white text-opacity-25">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="carousel slide d-flex justify-content-center carousel-dark" data-bs-ride="carousel" id="demo">
+            <div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+        
+                <div class="carousel-inner" style="width: 100%; height: 100%;">
+                    <div class="carousel-item active pt-5" class="d-block">
+                        <img src="bild2.jpg" alt="bild1" class="rounded-circle mx-auto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4 class="text-info">Kronhus gatan 9</h4>                          
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5">
+                        <img src="bild1.jpg" alt="bild2" class="rounded-circle">
+                    </div>
+                    <div class="carousel-item pt-5" class="d-block">
+                        <img src="bild3.jpg" alt="bild3" class="rounded-circle">
+                    </div>
+                </div>
+        
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="text-center text-white pt-4">
+            <h2>20D</h2>
+            <p>May you have a wonderful future filled with blessings and success</p>
+        </div>
+    </div>
+    
+</body>
+</html>
